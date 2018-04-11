@@ -1,0 +1,8 @@
+#Verificar se existe vms ligadas
+  esxcli vm process list
+  
+#Verificar a configuração de rede do host ESXi
+  esxcli network ip interface ipv4 get
+  
+#Verificar as informações da placa HBA
+  esxcli storage san fc list
