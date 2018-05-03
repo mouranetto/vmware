@@ -1,0 +1,8 @@
+
+1. acessar o host via vsphere client
+2. validar as interfaces de rede
+3. validar as interfaces de storage
+4. em Time Configuration -> configurar NTP e marcar a opção para reiniciar com o host
+5. em DNS and Routing -> configurar hostname, dominio e dns
+6. em Security Profile -> habilitar o acesso SSH e marcar a opção para reiniciar com o host
+7. em Networking -> 
